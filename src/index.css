@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper-container{
+  background-color: #f7f4fc;
+  height: 100vh;
+  display: flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-title{
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.company-title{
+  color: #fa5407;
+  font-weight: 500;
+}
+
+.company-title:hover{
+  color: #fa3807;
+}
+
+.form{
+  margin: 15px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+}
+
+.input{
+  width: 300px;
+
+}
+
+/* .second-page{
+  text-align: center;
+} */
+
+.welcome-header{
+  text-align: center;
+  padding:10px;
+  background-color: #ff6b16; 
+  color:white;
+}
+
+
+.component1{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.component2{
+  /* text-align: center; */
+  margin-top: 18px;
+  margin-bottom:18px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.footer{
+  background-color: #ff6b16; 
+  padding:10px;
+  margin-top:20px;
+  text-align: center;
+  color:whitesmoke;
+}
