@@ -17,7 +17,8 @@ const columns: GridColDef[] = [
 ];
 
 const App: React.FC = () => {
-  const [posts, setPosts] = useState([]); // remove GridRowData type annotation
+
+const [posts, setPosts] = useState<Post[]>([]);
 
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/posts")
